@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: eksapp
-        image: nginx:1.14.2
+        image: vdkthakur/todo-app:build-9
         ports:
         - containerPort: 80
